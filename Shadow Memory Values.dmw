@@ -132,6 +132,7 @@
                     "baseIndex": 0,
                     "label": "Stick X",
                     "typeIndex": 3,
+					"unsigned": false
                 },
                 {
                     "address": "8056ED60",
