@@ -122,8 +122,35 @@
             "groupEntries": [
                 {
                     "address": "8056ED4E",
-                    "baseIndex": 0,
+                    "baseIndex": 1,
                     "label": "Player 1 Button State",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "8056ED5C",
+                    "baseIndex": 0,
+                    "label": "Stick X",
+                    "typeIndex": 3,
+                },
+                {
+                    "address": "8056ED60",
+                    "baseIndex": 0,
+                    "label": "Stick Y",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8056ED64",
+                    "baseIndex": 0,
+                    "label": "Stick X (Bytes)",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "8056ED66",
+                    "baseIndex": 0,
+                    "label": "Stick Y (Bytes)",
                     "typeIndex": 1,
                     "unsigned": false
                 }
@@ -11267,6 +11294,34 @@
             "baseIndex": 3,
             "label": "Weapons Unlocked",
             "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "812ABEA8",
+            "baseIndex": 1,
+            "label": "????????",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "812ABE98",
+            "baseIndex": 0,
+            "label": "True Pos X",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "812ABE9C",
+            "baseIndex": 0,
+            "label": "True Pos Y",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "812ABEA0",
+            "baseIndex": 0,
+            "label": "True Pos Z",
+            "typeIndex": 3,
             "unsigned": false
         }
     ]
