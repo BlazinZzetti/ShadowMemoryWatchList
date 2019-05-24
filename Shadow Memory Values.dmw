@@ -132,7 +132,7 @@
                     "baseIndex": 0,
                     "label": "Stick X",
                     "typeIndex": 3,
-					"unsigned": false
+                    "unsigned": false
                 },
                 {
                     "address": "8056ED60",
@@ -11323,6 +11323,161 @@
             "baseIndex": 0,
             "label": "True Pos Z",
             "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "810FD2B0",
+                            "baseIndex": 0,
+                            "label": "True Position X",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD2B4",
+                            "baseIndex": 0,
+                            "label": "True Position Y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD2B8",
+                            "baseIndex": 0,
+                            "label": "True Position Z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD2C0",
+                            "baseIndex": 0,
+                            "label": "Rotation",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD2C8",
+                            "baseIndex": 0,
+                            "label": "Movement Direction X",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD2D0",
+                            "baseIndex": 0,
+                            "label": "Movement Direction Z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD31C",
+                            "baseIndex": 0,
+                            "label": "Pos X",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD320",
+                            "baseIndex": 0,
+                            "label": "Pos Y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FD324",
+                            "baseIndex": 0,
+                            "label": "Pos Z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Object Values"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "810FECCC",
+                            "baseIndex": 0,
+                            "label": "Reel 1 Result",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FECD0",
+                            "baseIndex": 0,
+                            "label": "Reel 2 Result",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FECD4",
+                            "baseIndex": 0,
+                            "label": "Reel 3 Result",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FECE0",
+                            "baseIndex": 0,
+                            "label": "Evalulation State",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "810FED17",
+                            "baseIndex": 0,
+                            "label": "Reels State",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Reel Values"
+                },
+                {
+                    "address": "810FD3B8",
+                    "baseIndex": 1,
+                    "label": "Health",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "810FD3C8",
+                    "baseIndex": 0,
+                    "label": "Egg Dealer Timer Save State",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "810FD3CC",
+                    "baseIndex": 0,
+                    "label": "Start Timer / State Manager?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "810FED24",
+                    "baseIndex": 0,
+                    "label": "Shadow's Attack",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "810FED28",
+                    "baseIndex": 0,
+                    "label": "Eggman Attack",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Egg Dealer Values"
+        },
+        {
+            "address": "8057D7E8",
+            "baseIndex": 0,
+            "label": "HUD Visible",
+            "typeIndex": 0,
             "unsigned": false
         }
     ]
