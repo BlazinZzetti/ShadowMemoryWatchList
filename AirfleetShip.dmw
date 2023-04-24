@@ -1,0 +1,25 @@
+{
+    "watchList": [
+        {
+            "address": "80EF4604",
+            "baseIndex": 0,
+            "label": "AirFleetShipCooldown",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80FBDDEC",
+            "baseIndex": 0,
+            "label": "AirFleetShipCooldownJPN",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80FBD184",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        }
+    ]
+}

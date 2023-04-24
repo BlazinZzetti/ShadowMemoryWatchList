@@ -69,9 +69,120 @@
                     "label": "Timer",
                     "typeIndex": 3,
                     "unsigned": false
+                },
+                {
+                    "address": "8060B33F",
+                    "baseIndex": 0,
+                    "label": "TimeInBytes",
+                    "length": 3,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "805769EC",
+                    "baseIndex": 0,
+                    "label": "LivesInStorySave",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805769F8",
+                    "baseIndex": 0,
+                    "label": "LivesInExpertSave",
+                    "typeIndex": 2,
+                    "unsigned": false
                 }
             ],
             "groupName": "Stats"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8057D778",
+                    "baseIndex": 0,
+                    "label": "Sonic Seen",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D77F",
+                    "baseIndex": 0,
+                    "label": "Tails Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D787",
+                    "baseIndex": 0,
+                    "label": "Amy Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D78B",
+                    "baseIndex": 0,
+                    "label": "Rouge Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D793",
+                    "baseIndex": 0,
+                    "label": "Vector Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D79B",
+                    "baseIndex": 0,
+                    "label": "Maria Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D783",
+                    "baseIndex": 0,
+                    "label": "Knuckles Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D78F",
+                    "baseIndex": 0,
+                    "label": "Omega Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D797",
+                    "baseIndex": 0,
+                    "label": "Espio Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D79F",
+                    "baseIndex": 0,
+                    "label": "Charmy Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D7A3",
+                    "baseIndex": 0,
+                    "label": "Eggman Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D7A7",
+                    "baseIndex": 0,
+                    "label": "Doom Seen",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Partner Seen"
         },
         {
             "groupEntries": [
@@ -109,10 +220,45 @@
                     "unsigned": false
                 },
                 {
-                    "address": "8057D7C4",
-                    "baseIndex": 1,
+                    "address": "8057D7C5",
+                    "baseIndex": 0,
                     "label": "Expert Enabled",
-                    "typeIndex": 1,
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D74C",
+                    "baseIndex": 0,
+                    "label": "Cutscene Related?",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584748",
+                    "baseIndex": 0,
+                    "label": "Load Stage?",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584749",
+                    "baseIndex": 0,
+                    "label": "Load Next Stage?",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805769F4",
+                    "baseIndex": 0,
+                    "label": "CurrrentExpertProgress",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804C4BA8",
+                    "baseIndex": 0,
+                    "label": "Expert Sage to Load?",
+                    "typeIndex": 2,
                     "unsigned": false
                 }
             ],
@@ -121,10 +267,10 @@
         {
             "groupEntries": [
                 {
-                    "address": "8056ED4E",
-                    "baseIndex": 1,
+                    "address": "8056ED4C",
+                    "baseIndex": 0,
                     "label": "Player 1 Button State",
-                    "typeIndex": 1,
+                    "typeIndex": 2,
                     "unsigned": false
                 },
                 {
@@ -153,6 +299,20 @@
                     "baseIndex": 0,
                     "label": "Stick Y (Bytes)",
                     "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80575D5C",
+                    "baseIndex": 3,
+                    "label": "Input Value Clone Included L Stick as Digital",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D570C",
+                    "baseIndex": 0,
+                    "label": "MessageAccept",
+                    "typeIndex": 2,
                     "unsigned": false
                 }
             ],
@@ -371,214 +531,6 @@
                 {
                     "groupEntries": [
                         {
-                            "address": "80576C40",
-                            "baseIndex": 0,
-                            "label": "Played",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576C44",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C58",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C54",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80576C4F",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576C50",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576C51",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Dark"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576C5C",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C70",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C6C",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80576C67",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576C68",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576C69",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Normal"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576C74",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C88",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C84",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80576C7F",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576C80",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576C81",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Hero"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576C8C",
-                                    "baseIndex": 0,
-                                    "label": "Key 1",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C90",
-                                    "baseIndex": 0,
-                                    "label": "Key 2",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C94",
-                                    "baseIndex": 0,
-                                    "label": "Key 3",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C98",
-                                    "baseIndex": 0,
-                                    "label": "Key 4",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576C9C",
-                                    "baseIndex": 0,
-                                    "label": "Key 5",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "Keys"
-                        }
-                    ],
-                    "groupName": "Digital Circuit"
-                },
-                {
-                    "groupEntries": [
-                        {
                             "address": "80576CA0",
                             "baseIndex": 0,
                             "label": "Played",
@@ -783,6 +735,214 @@
                         }
                     ],
                     "groupName": "Glyphic Canyon"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80576C40",
+                            "baseIndex": 0,
+                            "label": "Played",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576C44",
+                                    "baseIndex": 0,
+                                    "label": "Show Stats",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C58",
+                                    "baseIndex": 0,
+                                    "label": "Score",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C54",
+                                    "baseIndex": 0,
+                                    "label": "Time (Float)",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80576C4F",
+                                            "baseIndex": 0,
+                                            "label": "Minutes",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576C50",
+                                            "baseIndex": 0,
+                                            "label": "Seconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576C51",
+                                            "baseIndex": 0,
+                                            "label": "Milliseconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Time per Byte"
+                                }
+                            ],
+                            "groupName": "Dark"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576C5C",
+                                    "baseIndex": 0,
+                                    "label": "Show Stats",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C70",
+                                    "baseIndex": 0,
+                                    "label": "Score",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C6C",
+                                    "baseIndex": 0,
+                                    "label": "Time (Float)",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80576C67",
+                                            "baseIndex": 0,
+                                            "label": "Minutes",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576C68",
+                                            "baseIndex": 0,
+                                            "label": "Seconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576C69",
+                                            "baseIndex": 0,
+                                            "label": "Milliseconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Time per Byte"
+                                }
+                            ],
+                            "groupName": "Normal"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576C74",
+                                    "baseIndex": 0,
+                                    "label": "Show Stats",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C88",
+                                    "baseIndex": 0,
+                                    "label": "Score",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C84",
+                                    "baseIndex": 0,
+                                    "label": "Time (Float)",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80576C7F",
+                                            "baseIndex": 0,
+                                            "label": "Minutes",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576C80",
+                                            "baseIndex": 0,
+                                            "label": "Seconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576C81",
+                                            "baseIndex": 0,
+                                            "label": "Milliseconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Time per Byte"
+                                }
+                            ],
+                            "groupName": "Hero"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576C8C",
+                                    "baseIndex": 0,
+                                    "label": "Key 1",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C90",
+                                    "baseIndex": 0,
+                                    "label": "Key 2",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C94",
+                                    "baseIndex": 0,
+                                    "label": "Key 3",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C98",
+                                    "baseIndex": 0,
+                                    "label": "Key 4",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576C9C",
+                                    "baseIndex": 0,
+                                    "label": "Key 5",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Keys"
+                        }
+                    ],
+                    "groupName": "Digital Circuit"
                 },
                 {
                     "groupEntries": [
@@ -3033,7 +3193,7 @@
                             "groupEntries": [
                                 {
                                     "address": "8057710C",
-                                    "baseIndex": 0,
+                                    "baseIndex": 1,
                                     "label": "Key 1",
                                     "typeIndex": 2,
                                     "unsigned": false
@@ -8539,7 +8699,7 @@
                                     "groupName": "Time per Byte"
                                 }
                             ],
-                            "groupName": "Dark"
+                            "groupName": "Dark (Story)"
                         },
                         {
                             "groupEntries": [
@@ -8591,7 +8751,7 @@
                                     "groupName": "Time per Byte"
                                 }
                             ],
-                            "groupName": "Normal"
+                            "groupName": "Normal (Expert)"
                         },
                         {
                             "groupEntries": [
@@ -8643,50 +8803,76 @@
                                     "groupName": "Time per Byte"
                                 }
                             ],
-                            "groupName": "Hero"
+                            "groupName": "Hero (Last Story)"
                         },
                         {
                             "groupEntries": [
                                 {
                                     "address": "80577B2C",
                                     "baseIndex": 0,
-                                    "label": "Key 1",
-                                    "typeIndex": 2,
+                                    "label": "CS Skip",
+                                    "typeIndex": 0,
                                     "unsigned": false
                                 },
                                 {
-                                    "address": "80577B30",
+                                    "address": "80577B2D",
                                     "baseIndex": 0,
-                                    "label": "Key 2",
-                                    "typeIndex": 2,
+                                    "label": "Race Mode",
+                                    "typeIndex": 0,
                                     "unsigned": false
                                 },
                                 {
-                                    "address": "80577B34",
+                                    "address": "80577B2E",
                                     "baseIndex": 0,
-                                    "label": "Key 3",
-                                    "typeIndex": 2,
+                                    "label": "Modern UI Control",
+                                    "typeIndex": 0,
                                     "unsigned": false
                                 },
                                 {
-                                    "address": "80577B38",
-                                    "baseIndex": 0,
-                                    "label": "Key 4",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577B3C",
-                                    "baseIndex": 0,
-                                    "label": "Key 5",
-                                    "typeIndex": 2,
-                                    "unsigned": false
+                                    "groupEntries": [
+                                        {
+                                            "address": "80577B2C",
+                                            "baseIndex": 0,
+                                            "label": "Key 1",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577B30",
+                                            "baseIndex": 0,
+                                            "label": "Key 2",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577B34",
+                                            "baseIndex": 0,
+                                            "label": "Key 3",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577B38",
+                                            "baseIndex": 0,
+                                            "label": "Key 4",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577B3C",
+                                            "baseIndex": 0,
+                                            "label": "Key 5",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "OG Keys"
                                 }
                             ],
-                            "groupName": "Keys"
+                            "groupName": "Keys (ROM Settings)"
                         }
                     ],
-                    "groupName": "Unused"
+                    "groupName": "Unused - Mod Where Race Time is Saved"
                 },
                 {
                     "groupEntries": [
@@ -11228,6 +11414,39 @@
             "groupName": "Option Menu Variables"
         },
         {
+            "address": "80583ACC",
+            "baseIndex": 0,
+            "label": "CurrentScreen1",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80583AD0",
+            "baseIndex": 0,
+            "label": "CurrentScreen2",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80000000",
+                    "baseIndex": 0,
+                    "label": "nop = 60000000",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80178BC4",
+                    "baseIndex": 1,
+                    "label": "Restore Last Checkpoint Time (Code)",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Code"
+        },
+        {
             "address": "8057D750",
             "baseIndex": 0,
             "label": "Time Stop Enabled",
@@ -11263,16 +11482,100 @@
             "unsigned": false
         },
         {
-            "address": "80578028",
-            "baseIndex": 3,
-            "label": "Library 1-32",
-            "typeIndex": 2,
+            "address": "8057D8A6",
+            "baseIndex": 0,
+            "label": "Mod: Entered Checkpoint",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D8F4",
+            "baseIndex": 0,
+            "label": "Mod: Option Index",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D8F6",
+            "baseIndex": 0,
+            "label": "Mod: In Story - ButtonCheck During Intro",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D8F8",
+            "baseIndex": 0,
+            "label": "Mod: In Cutscene",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D8FA",
+            "baseIndex": 0,
+            "label": "Mod: Intro Screen Index",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D8FC",
+            "baseIndex": 0,
+            "label": "Mod: Intro Message ID",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D8FE",
+            "baseIndex": 0,
+            "label": "Mod: Select Mode Flag",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D900",
+            "baseIndex": 0,
+            "label": "Mod: Show Time In Save",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D902",
+            "baseIndex": 0,
+            "label": "Mod: In Last Story",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8057D908",
+            "baseIndex": 0,
+            "label": "Mod: New IGT",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D918",
+            "baseIndex": 0,
+            "label": "Mod: New Race IGT",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D928",
+            "baseIndex": 0,
+            "label": "Mod: Egg Dealer IL Mode",
+            "typeIndex": 1,
             "unsigned": false
         },
         {
             "address": "80578024",
             "baseIndex": 0,
             "label": "Number of A Ranks",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80578028",
+            "baseIndex": 3,
+            "label": "Library 1-32",
             "typeIndex": 2,
             "unsigned": false
         },
@@ -11302,7 +11605,7 @@
             "baseIndex": 3,
             "label": "Weapons In Save",
             "typeIndex": 1,
-            "unsigned": true
+            "unsigned": false
         },
         {
             "address": "812ABEA8",
@@ -11601,6 +11904,266 @@
             "address": "8057D771",
             "baseIndex": 0,
             "label": "Test1",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "80575DFC",
+            "baseIndex": 3,
+            "label": "Input Store 1",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80575D64",
+            "baseIndex": 3,
+            "label": "Input Related 1",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80575E04",
+            "baseIndex": 3,
+            "label": "Input Related 2",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80575D68",
+            "baseIndex": 3,
+            "label": "Input Related 3",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80575E08",
+            "baseIndex": 3,
+            "label": "Input Related 4?",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80575E14",
+            "baseIndex": 3,
+            "label": "Input Related 5?",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "809E2BA1",
+            "baseIndex": 0,
+            "label": "NeonEffect",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "8057D6C0",
+            "baseIndex": 0,
+            "label": "TimeAmount",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D6CC",
+            "baseIndex": 0,
+            "label": "TimeAmount",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D6C4",
+            "baseIndex": 0,
+            "label": "TimeMultiplier",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D6D0",
+            "baseIndex": 0,
+            "label": "TimerMultiplier2?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D6BC",
+            "baseIndex": 0,
+            "label": "TimeMultiplierForFrameSkip?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80B3F8C8",
+            "baseIndex": 0,
+            "label": "West-Played-Copy1",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8060B130",
+            "baseIndex": 0,
+            "label": "West-Played-Copy2",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "809AF04C",
+            "baseIndex": 1,
+            "label": "AirFleetDoor",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "809AF0D1",
+            "baseIndex": 3,
+            "label": "LavaShelterDoor",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "809AF0FD",
+            "baseIndex": 0,
+            "label": "FinalHauntDoor1",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "809B0D01",
+            "baseIndex": 0,
+            "label": "FinalHauntDoor2",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "809AF050",
+            "baseIndex": 1,
+            "label": "AirFleetDoorReset",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8057FB80",
+                    "baseIndex": 0,
+                    "label": "CurrentKey1",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80570C40",
+                    "baseIndex": 0,
+                    "label": "Unknown1",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "ImportantStuffs"
+        },
+        {
+            "address": "8011BE9C",
+            "baseIndex": 0,
+            "label": "KeyCountFunctionStart",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805780AC",
+            "baseIndex": 1,
+            "label": "Cutscenes Viewed?",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "809DB948",
+            "baseIndex": 0,
+            "label": "PreventCutsceneSkip(Intro)",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80584560",
+                    "baseIndex": 0,
+                    "label": "SelectModeX",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584564",
+                    "baseIndex": 0,
+                    "label": "SelectModeY",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584568",
+                    "baseIndex": 0,
+                    "label": "BossSelected",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8058456C",
+                    "baseIndex": 0,
+                    "label": "Final Boss Position",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80584570",
+                    "baseIndex": 0,
+                    "label": "Final Boss Selected",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "SelectMode Variables"
+        },
+        {
+            "address": "80580210",
+            "baseIndex": 0,
+            "label": "RealTimeCutsceneValue",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80A0EF64",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 2,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Story Mode Menu Variables"
+        },
+        {
+            "address": "80A4B028",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "80A4B208",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "80A0EF84",
+            "baseIndex": 0,
+            "label": "Save Related",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8057D71F",
+            "baseIndex": 0,
+            "label": "Prevent Skiping Intro Credits",
             "typeIndex": 0,
             "unsigned": false
         }

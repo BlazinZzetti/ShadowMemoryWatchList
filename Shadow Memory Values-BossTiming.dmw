@@ -1,0 +1,39 @@
+{
+    "watchList": [
+        {
+            "address": "8057D734",
+            "baseIndex": 0,
+            "label": "Timer",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D6C0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8057D6CC",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805EF9B0",
+            "baseIndex": 0,
+            "label": "Time?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805EF9B4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}

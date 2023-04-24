@@ -109,10 +109,10 @@
                     "unsigned": false
                 },
                 {
-                    "address": "8057E884",
-                    "baseIndex": 1,
+                    "address": "8057E885",
+                    "baseIndex": 0,
                     "label": "Expert Enabled",
-                    "typeIndex": 1,
+                    "typeIndex": 0,
                     "unsigned": false
                 }
             ],

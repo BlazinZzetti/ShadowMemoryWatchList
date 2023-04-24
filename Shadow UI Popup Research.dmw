@@ -1,0 +1,188 @@
+{
+    "watchList": [
+        {
+            "address": "80A26B78",
+            "baseIndex": 0,
+            "label": "First Message",
+            "length": 8,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A27842",
+            "baseIndex": 0,
+            "label": "Player 2",
+            "length": 7,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A274A4",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 8,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80A0E84C",
+                    "baseIndex": 0,
+                    "label": "FNT Num of Messages",
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80573340",
+                    "baseIndex": 0,
+                    "label": "Message Contents",
+                    "length": 6,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80573340",
+                    "baseIndex": 0,
+                    "label": "Message Address",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80573344",
+                    "baseIndex": 1,
+                    "label": "Current Message Index",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80573348",
+                    "baseIndex": 1,
+                    "label": "Message Size",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Message Data"
+        },
+        {
+            "address": "8060B304",
+            "baseIndex": 0,
+            "label": "Message Current Section 1",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "8060B304",
+            "baseIndex": 0,
+            "label": "Message Section To Display 1",
+            "length": 2,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "8060B30C",
+            "baseIndex": 0,
+            "label": "Message Current Section 2",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "8060B30C",
+            "baseIndex": 0,
+            "label": "Message Section To Display 2",
+            "length": 2,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A1ACBC",
+            "baseIndex": 0,
+            "label": "MessageToLoad?",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+            ],
+            "groupName": "______________________________________"
+        },
+        {
+            "address": "8060B3B0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A3C1E0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A17FE0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "807D5700",
+            "baseIndex": 1,
+            "label": "MessageID",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+            ],
+            "groupName": "_______________"
+        },
+        {
+            "address": "80A1AC80",
+            "baseIndex": 0,
+            "label": "FNT Start",
+            "length": 4,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A1AC80",
+            "baseIndex": 0,
+            "label": "IGT Message",
+            "length": 4,
+            "pointerOffsets": [
+                "0"
+            ],
+            "typeIndex": 6,
+            "unsigned": false
+        }
+    ]
+}
