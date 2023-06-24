@@ -319,6 +319,13 @@
             "groupName": "Player Controls"
         },
         {
+            "address": "80576972",
+            "baseIndex": 0,
+            "label": "Current Language",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
             "groupEntries": [
                 {
                     "groupEntries": [
