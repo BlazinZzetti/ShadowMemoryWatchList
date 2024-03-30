@@ -71,6 +71,27 @@
                     "unsigned": false
                 },
                 {
+                    "address": "8057D740",
+                    "baseIndex": 0,
+                    "label": "Mission Timer",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D744",
+                    "baseIndex": 0,
+                    "label": "Mission Timer Reset",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057D73C",
+                    "baseIndex": 0,
+                    "label": "Mission Timer Offset",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
                     "address": "8060B33F",
                     "baseIndex": 0,
                     "label": "TimeInBytes",
@@ -12172,6 +12193,20 @@
             "baseIndex": 0,
             "label": "Prevent Skiping Intro Credits",
             "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805EE65C",
+            "baseIndex": 0,
+            "label": "HealthBar",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805EE588",
+            "baseIndex": 0,
+            "label": "mainPlayerID",
+            "typeIndex": 2,
             "unsigned": false
         }
     ]
