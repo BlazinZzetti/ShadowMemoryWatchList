@@ -78,6 +78,13 @@
                     "unsigned": false
                 },
                 {
+                    "address": "809EF3D0",
+                    "baseIndex": 0,
+                    "label": "Time for next Beep",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
                     "address": "8057D744",
                     "baseIndex": 0,
                     "label": "Mission Timer Reset",
@@ -86,7 +93,7 @@
                 },
                 {
                     "address": "8057D73C",
-                    "baseIndex": 0,
+                    "baseIndex": 1,
                     "label": "Mission Timer Offset",
                     "typeIndex": 3,
                     "unsigned": false
@@ -97,6 +104,27 @@
                     "label": "TimeInBytes",
                     "length": 3,
                     "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B33F",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B340",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B341",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 0,
                     "unsigned": false
                 },
                 {
@@ -206,6 +234,7 @@
             "groupName": "Partner Seen"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
                     "address": "807D77E0",
@@ -286,12 +315,84 @@
             "groupName": "Stage Variables"
         },
         {
+            "address": "805EF9AC",
+            "baseIndex": 0,
+            "label": "GameMode Byte",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805E22A3",
+            "baseIndex": 0,
+            "label": "Loaded FNT for Scene",
+            "length": 9,
+            "typeIndex": 5,
+            "unsigned": true
+        },
+        {
+            "address": "804FF678",
+            "baseIndex": 0,
+            "label": "FNT Loading",
+            "length": 15,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805F1C88",
+            "baseIndex": 0,
+            "label": "Start of Language Enum",
+            "length": 4,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "8060B324",
+            "baseIndex": 0,
+            "label": "FNT File Loading",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805EC173",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
             "groupEntries": [
                 {
-                    "address": "8056ED4C",
-                    "baseIndex": 0,
+                    "groupEntries": [
+                        {
+                            "address": "805A5810",
+                            "baseIndex": 0,
+                            "label": "Buttons Inverted",
+                            "length": 6,
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805A5810",
+                            "baseIndex": 0,
+                            "label": "Buttons",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805A5812",
+                            "baseIndex": 0,
+                            "label": "StickX",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "New Group"
+                },
+                {
+                    "address": "8056ED4E",
+                    "baseIndex": 1,
                     "label": "Player 1 Button State",
-                    "typeIndex": 2,
+                    "typeIndex": 1,
                     "unsigned": false
                 },
                 {
@@ -319,6 +420,13 @@
                     "address": "8056ED66",
                     "baseIndex": 0,
                     "label": "Stick Y (Bytes)",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "8056ED70",
+                    "baseIndex": 0,
+                    "label": "C Stick X (Bytes)",
                     "typeIndex": 1,
                     "unsigned": false
                 },
@@ -559,214 +667,6 @@
                 {
                     "groupEntries": [
                         {
-                            "address": "80576CA0",
-                            "baseIndex": 0,
-                            "label": "Played",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576CA4",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CB8",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CB4",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80576CAF",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576CB0",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576CB1",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Dark"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576CBC",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CD0",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CCC",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80576CC7",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576CC8",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576CC9",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Normal"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576CD4",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CE8",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CE4",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80576CDF",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576CE0",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80576CE1",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Hero"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80576CEC",
-                                    "baseIndex": 0,
-                                    "label": "Key 1",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CF0",
-                                    "baseIndex": 0,
-                                    "label": "Key 2",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CF4",
-                                    "baseIndex": 0,
-                                    "label": "Key 3",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CF8",
-                                    "baseIndex": 0,
-                                    "label": "Key 4",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80576CFC",
-                                    "baseIndex": 0,
-                                    "label": "Key 5",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "Keys"
-                        }
-                    ],
-                    "groupName": "Glyphic Canyon"
-                },
-                {
-                    "groupEntries": [
-                        {
                             "address": "80576C40",
                             "baseIndex": 0,
                             "label": "Played",
@@ -971,6 +871,214 @@
                         }
                     ],
                     "groupName": "Digital Circuit"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80576CA0",
+                            "baseIndex": 0,
+                            "label": "Played",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576CA4",
+                                    "baseIndex": 0,
+                                    "label": "Show Stats",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CB8",
+                                    "baseIndex": 0,
+                                    "label": "Score",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CB4",
+                                    "baseIndex": 0,
+                                    "label": "Time (Float)",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80576CAF",
+                                            "baseIndex": 0,
+                                            "label": "Minutes",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576CB0",
+                                            "baseIndex": 0,
+                                            "label": "Seconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576CB1",
+                                            "baseIndex": 0,
+                                            "label": "Milliseconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Time per Byte"
+                                }
+                            ],
+                            "groupName": "Dark"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576CBC",
+                                    "baseIndex": 0,
+                                    "label": "Show Stats",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CD0",
+                                    "baseIndex": 0,
+                                    "label": "Score",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CCC",
+                                    "baseIndex": 0,
+                                    "label": "Time (Float)",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80576CC7",
+                                            "baseIndex": 0,
+                                            "label": "Minutes",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576CC8",
+                                            "baseIndex": 0,
+                                            "label": "Seconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576CC9",
+                                            "baseIndex": 0,
+                                            "label": "Milliseconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Time per Byte"
+                                }
+                            ],
+                            "groupName": "Normal"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576CD4",
+                                    "baseIndex": 0,
+                                    "label": "Show Stats",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CE8",
+                                    "baseIndex": 0,
+                                    "label": "Score",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CE4",
+                                    "baseIndex": 0,
+                                    "label": "Time (Float)",
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80576CDF",
+                                            "baseIndex": 0,
+                                            "label": "Minutes",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576CE0",
+                                            "baseIndex": 0,
+                                            "label": "Seconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80576CE1",
+                                            "baseIndex": 0,
+                                            "label": "Milliseconds",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Time per Byte"
+                                }
+                            ],
+                            "groupName": "Hero"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80576CEC",
+                                    "baseIndex": 0,
+                                    "label": "Key 1",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CF0",
+                                    "baseIndex": 0,
+                                    "label": "Key 2",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CF4",
+                                    "baseIndex": 0,
+                                    "label": "Key 3",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CF8",
+                                    "baseIndex": 0,
+                                    "label": "Key 4",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80576CFC",
+                                    "baseIndex": 0,
+                                    "label": "Key 5",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Keys"
+                        }
+                    ],
+                    "groupName": "Glyphic Canyon"
                 },
                 {
                     "groupEntries": [
@@ -2181,35 +2289,35 @@
                             "groupEntries": [
                                 {
                                     "address": "80576F2C",
-                                    "baseIndex": 1,
+                                    "baseIndex": 0,
                                     "label": "Key 1",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
                                 {
                                     "address": "80576F30",
-                                    "baseIndex": 1,
+                                    "baseIndex": 0,
                                     "label": "Key 2",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
                                 {
                                     "address": "80576F34",
-                                    "baseIndex": 1,
+                                    "baseIndex": 0,
                                     "label": "Key 3",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
                                 {
                                     "address": "80576F38",
-                                    "baseIndex": 1,
+                                    "baseIndex": 0,
                                     "label": "Key 4",
                                     "typeIndex": 2,
                                     "unsigned": false
                                 },
                                 {
                                     "address": "80576F3C",
-                                    "baseIndex": 1,
+                                    "baseIndex": 0,
                                     "label": "Key 5",
                                     "typeIndex": 2,
                                     "unsigned": false
@@ -3221,7 +3329,7 @@
                             "groupEntries": [
                                 {
                                     "address": "8057710C",
-                                    "baseIndex": 1,
+                                    "baseIndex": 0,
                                     "label": "Key 1",
                                     "typeIndex": 2,
                                     "unsigned": false
@@ -8314,6 +8422,7 @@
                             "groupName": "Dark"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "80577A3C",
@@ -8522,6 +8631,7 @@
                             "groupName": "Dark"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "80577A9C",
@@ -8669,6 +8779,7 @@
                     "groupName": "Devil Doom"
                 },
                 {
+                    "expanded": true,
                     "groupEntries": [
                         {
                             "address": "80577AE0",
@@ -8834,6 +8945,7 @@
                             "groupName": "Hero (Last Story)"
                         },
                         {
+                            "expanded": true,
                             "groupEntries": [
                                 {
                                     "address": "80577B2C",
@@ -8853,6 +8965,20 @@
                                     "address": "80577B2E",
                                     "baseIndex": 0,
                                     "label": "Modern UI Control",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80577B2F",
+                                    "baseIndex": 0,
+                                    "label": "Disable SPW Unlock",
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80577B30",
+                                    "baseIndex": 0,
+                                    "label": "Disable Key Saving",
                                     "typeIndex": 0,
                                     "unsigned": false
                                 },
@@ -9737,6 +9863,214 @@
                 {
                     "groupEntries": [
                         {
+                            "groupEntries": [
+                                {
+                                    "address": "80577D20",
+                                    "baseIndex": 0,
+                                    "label": "Played",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80577D24",
+                                            "baseIndex": 0,
+                                            "label": "Show Stats",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D38",
+                                            "baseIndex": 0,
+                                            "label": "Score",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D34",
+                                            "baseIndex": 0,
+                                            "label": "Time (Float)",
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "groupEntries": [
+                                                {
+                                                    "address": "80577D2F",
+                                                    "baseIndex": 0,
+                                                    "label": "Minutes",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80577D30",
+                                                    "baseIndex": 0,
+                                                    "label": "Seconds",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80577D31",
+                                                    "baseIndex": 0,
+                                                    "label": "Milliseconds",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                }
+                                            ],
+                                            "groupName": "Time per Byte"
+                                        }
+                                    ],
+                                    "groupName": "Dark"
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80577D3C",
+                                            "baseIndex": 0,
+                                            "label": "Show Stats",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D50",
+                                            "baseIndex": 0,
+                                            "label": "Score",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D4C",
+                                            "baseIndex": 0,
+                                            "label": "Time (Float)",
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "groupEntries": [
+                                                {
+                                                    "address": "80577D47",
+                                                    "baseIndex": 0,
+                                                    "label": "Minutes",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80577D48",
+                                                    "baseIndex": 0,
+                                                    "label": "Seconds",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80577D49",
+                                                    "baseIndex": 0,
+                                                    "label": "Milliseconds",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                }
+                                            ],
+                                            "groupName": "Time per Byte"
+                                        }
+                                    ],
+                                    "groupName": "Normal"
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80577D54",
+                                            "baseIndex": 0,
+                                            "label": "Show Stats",
+                                            "typeIndex": 0,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D68",
+                                            "baseIndex": 0,
+                                            "label": "Score",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D64",
+                                            "baseIndex": 0,
+                                            "label": "Time (Float)",
+                                            "typeIndex": 3,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "groupEntries": [
+                                                {
+                                                    "address": "80577D5F",
+                                                    "baseIndex": 0,
+                                                    "label": "Minutes",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80577D60",
+                                                    "baseIndex": 0,
+                                                    "label": "Seconds",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                },
+                                                {
+                                                    "address": "80577D61",
+                                                    "baseIndex": 0,
+                                                    "label": "Milliseconds",
+                                                    "typeIndex": 0,
+                                                    "unsigned": false
+                                                }
+                                            ],
+                                            "groupName": "Time per Byte"
+                                        }
+                                    ],
+                                    "groupName": "Hero"
+                                },
+                                {
+                                    "groupEntries": [
+                                        {
+                                            "address": "80577D6C",
+                                            "baseIndex": 0,
+                                            "label": "Key 1",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D70",
+                                            "baseIndex": 0,
+                                            "label": "Key 2",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D74",
+                                            "baseIndex": 0,
+                                            "label": "Key 3",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D78",
+                                            "baseIndex": 0,
+                                            "label": "Key 4",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        },
+                                        {
+                                            "address": "80577D7C",
+                                            "baseIndex": 0,
+                                            "label": "Key 5",
+                                            "typeIndex": 2,
+                                            "unsigned": false
+                                        }
+                                    ],
+                                    "groupName": "Keys"
+                                }
+                            ],
+                            "groupName": "Unused"
+                        },
+                        {
                             "address": "80577CC0",
                             "baseIndex": 0,
                             "label": "Played",
@@ -9931,214 +10265,6 @@
                                 },
                                 {
                                     "address": "80577D1C",
-                                    "baseIndex": 0,
-                                    "label": "Key 5",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                }
-                            ],
-                            "groupName": "Keys"
-                        }
-                    ],
-                    "groupName": "Unused"
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80577D20",
-                            "baseIndex": 0,
-                            "label": "Played",
-                            "typeIndex": 2,
-                            "unsigned": false
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80577D24",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D38",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D34",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80577D2F",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80577D30",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80577D31",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Dark"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80577D3C",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D50",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D4C",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80577D47",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80577D48",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80577D49",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Normal"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80577D54",
-                                    "baseIndex": 0,
-                                    "label": "Show Stats",
-                                    "typeIndex": 0,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D68",
-                                    "baseIndex": 0,
-                                    "label": "Score",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D64",
-                                    "baseIndex": 0,
-                                    "label": "Time (Float)",
-                                    "typeIndex": 3,
-                                    "unsigned": false
-                                },
-                                {
-                                    "groupEntries": [
-                                        {
-                                            "address": "80577D5F",
-                                            "baseIndex": 0,
-                                            "label": "Minutes",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80577D60",
-                                            "baseIndex": 0,
-                                            "label": "Seconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        },
-                                        {
-                                            "address": "80577D61",
-                                            "baseIndex": 0,
-                                            "label": "Milliseconds",
-                                            "typeIndex": 0,
-                                            "unsigned": false
-                                        }
-                                    ],
-                                    "groupName": "Time per Byte"
-                                }
-                            ],
-                            "groupName": "Hero"
-                        },
-                        {
-                            "groupEntries": [
-                                {
-                                    "address": "80577D6C",
-                                    "baseIndex": 0,
-                                    "label": "Key 1",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D70",
-                                    "baseIndex": 0,
-                                    "label": "Key 2",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D74",
-                                    "baseIndex": 0,
-                                    "label": "Key 3",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D78",
-                                    "baseIndex": 0,
-                                    "label": "Key 4",
-                                    "typeIndex": 2,
-                                    "unsigned": false
-                                },
-                                {
-                                    "address": "80577D7C",
                                     "baseIndex": 0,
                                     "label": "Key 5",
                                     "typeIndex": 2,
@@ -11496,16 +11622,16 @@
             "unsigned": false
         },
         {
-            "address": "80578020",
+            "address": "80578021",
             "baseIndex": 0,
-            "label": "Last Story Unlocked",
+            "label": "Expert Mode Unlocked",
             "typeIndex": 0,
             "unsigned": false
         },
         {
-            "address": "80578021",
+            "address": "80578020",
             "baseIndex": 0,
-            "label": "Expert Mode Unlocked",
+            "label": "Last Story Unlocked",
             "typeIndex": 0,
             "unsigned": false
         },
@@ -11540,7 +11666,7 @@
         {
             "address": "8057D8FA",
             "baseIndex": 0,
-            "label": "Mod: Intro Screen Index",
+            "label": "Mod: Message Offset",
             "typeIndex": 1,
             "unsigned": false
         },
@@ -11590,6 +11716,13 @@
             "address": "8057D928",
             "baseIndex": 0,
             "label": "Mod: Egg Dealer IL Mode",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "80576972",
+            "baseIndex": 0,
+            "label": "No label",
             "typeIndex": 1,
             "unsigned": false
         },
@@ -12069,6 +12202,7 @@
             "unsigned": false
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
                     "address": "8057FB80",
@@ -12208,6 +12342,433 @@
             "label": "mainPlayerID",
             "typeIndex": 2,
             "unsigned": false
+        },
+        {
+            "address": "80A26B78",
+            "baseIndex": 0,
+            "label": "First Message",
+            "length": 8,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A27842",
+            "baseIndex": 0,
+            "label": "Player 2",
+            "length": 7,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80A274A4",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 8,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "expanded": true,
+            "groupEntries": [
+                {
+                    "address": "80A0E84C",
+                    "baseIndex": 0,
+                    "label": "FNT Num of Messages",
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80573340",
+                    "baseIndex": 0,
+                    "label": "Message Contents",
+                    "length": 6,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": true
+                },
+                {
+                    "address": "80573340",
+                    "baseIndex": 0,
+                    "label": "Message Address",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057FA6C",
+                    "baseIndex": 0,
+                    "label": "Subtile ID To Display",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B3D4",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B398",
+                    "baseIndex": 0,
+                    "label": "Subtile Get Data?",
+                    "pointerOffsets": [
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B398",
+                    "baseIndex": 0,
+                    "label": "Subtile Stored Float",
+                    "pointerOffsets": [
+                        "64"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D5DEC",
+                    "baseIndex": 0,
+                    "label": "Current Subtile Time",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D5DF0",
+                    "baseIndex": 0,
+                    "label": "Current Subtile Duration",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057FA80",
+                    "baseIndex": 0,
+                    "label": "Subtile Related?",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80573344",
+                    "baseIndex": 0,
+                    "label": "Current Message Index",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80573348",
+                    "baseIndex": 1,
+                    "label": "Message Size",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "Message Data"
+                },
+                {
+                    "address": "8060B304",
+                    "baseIndex": 0,
+                    "label": "Message Current Section 1",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B304",
+                    "baseIndex": 0,
+                    "label": "Message Section To Display 1",
+                    "length": 2,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B30C",
+                    "baseIndex": 0,
+                    "label": "Message Current Section 2",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8060B30C",
+                    "baseIndex": 0,
+                    "label": "Message Section To Display 2",
+                    "length": 2,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80A1ACBC",
+                    "baseIndex": 0,
+                    "label": "MessageToLoad?",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "______________________________________"
+                },
+                {
+                    "address": "8060B3B0",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "length": 4,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80A3C1E0",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80A17FE0",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D5700",
+                    "baseIndex": 0,
+                    "label": "MessageID",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "807D5704",
+                    "baseIndex": 0,
+                    "label": "Last Message Shown",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                    ],
+                    "groupName": "_______________"
+                },
+                {
+                    "address": "80A1AC80",
+                    "baseIndex": 0,
+                    "label": "FNT Start",
+                    "length": 4,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80A1AC80",
+                    "baseIndex": 0,
+                    "label": "IGT Message",
+                    "length": 4,
+                    "pointerOffsets": [
+                        "0"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "8057FA77",
+                    "baseIndex": 0,
+                    "label": "Subtitle FNT Sequence Number",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "expanded": true,
+                    "groupEntries": [
+                        {
+                            "address": "80A0CE04",
+                            "baseIndex": 0,
+                            "label": "Location of Text",
+                            "length": 8,
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80A0CE08",
+                            "baseIndex": 0,
+                            "label": "Message ID / Branch / Sequence",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80A0CE0C",
+                            "baseIndex": 0,
+                            "label": "????",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80A0CE10",
+                            "baseIndex": 0,
+                            "label": "Active Time",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Subtilte Message Struct"
+                }
+            ],
+            "groupName": "Message Related"
+        },
+        {
+            "address": "8057FB80",
+            "baseIndex": 3,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8056ED4F",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "80575D5F",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "80575DFF",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "805A5810",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "8029C1D4",
+            "baseIndex": 0,
+            "label": "Heros Input",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "80575FBC",
+            "baseIndex": 0,
+            "label": "Checkpoint ID to Reload To",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "809E84E0",
+            "baseIndex": 0,
+            "label": "Checkpoint Related",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80575F84",
+            "baseIndex": 0,
+            "label": "Stage Action Current Action",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80575F80",
+            "baseIndex": 0,
+            "label": "Stage Action Previous Action",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "809EF3D0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "805EF9A8",
+            "baseIndex": 0,
+            "label": "Phase",
+            "pointerOffsets": [
+                "4"
+            ],
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "809E3218",
+            "baseIndex": 0,
+            "label": "One of Many???",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "807D3950",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "805EE65C",
+            "baseIndex": 0,
+            "label": "Boss Health Bar",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80F61B48",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "8057FB80",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "80578024",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 2,
+            "unsigned": true
         }
     ]
 }
